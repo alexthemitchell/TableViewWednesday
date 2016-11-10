@@ -13,6 +13,7 @@
 		FAA2D2781DD4121B00214BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2D2761DD4121B00214BF4 /* Main.storyboard */; };
 		FAA2D27A1DD4121B00214BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2D2791DD4121B00214BF4 /* Assets.xcassets */; };
 		FAA2D27D1DD4121B00214BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2D27B1DD4121B00214BF4 /* LaunchScreen.storyboard */; };
+		FAA2D2861DD412A900214BF4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2D2851DD412A900214BF4 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FAA2D2791DD4121B00214BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA2D27C1DD4121B00214BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA2D27E1DD4121B00214BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA2D2841DD412A900214BF4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FAA2D2851DD412A900214BF4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		FAA2D2611DD4121A00214BF4 = {
 			isa = PBXGroup;
 			children = (
+				FAA2D2841DD412A900214BF4 /* Person.h */,
+				FAA2D2851DD412A900214BF4 /* Person.m */,
 				FAA2D26C1DD4121A00214BF4 /* DirectoryWednesday */,
 				FAA2D26B1DD4121A00214BF4 /* Products */,
 			);
@@ -153,6 +158,7 @@
 			files = (
 				FAA2D2751DD4121B00214BF4 /* ViewController.m in Sources */,
 				FAA2D2721DD4121A00214BF4 /* AppDelegate.m in Sources */,
+				FAA2D2861DD412A900214BF4 /* Person.m in Sources */,
 				FAA2D26F1DD4121A00214BF4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
